@@ -1,0 +1,17 @@
+<div>
+  
+  <div>
+    <p>This demo shows how to use the Facebook Connect APIs to integrate your Rhodes app with Facebook.</p>
+    <p>It will verify if you have liked the Rhomobile product page. See the controller code for the magic and comments on directions.</p>
+  </div>
+
+  <div class="standardButton"><a target="_webapp" href="http://m.facebook.com/pages/Rhomobile/56638045891">Visit the Rhomobile page</a></div>
+   
+  <br />
+  <br />
+   
+  <form method="POST" action="<%= url_for :action => :connect_to_facebook %>" >
+    <input type="submit" class="standardButton" value="Do you like Rhomobile on facebook?"/>
+  </form>
+
+</div>
